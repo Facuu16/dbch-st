@@ -83,9 +83,9 @@ namespace DBCH.STool.GUI
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(53, 236);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(242, 40);
+            this.label1.Size = new System.Drawing.Size(225, 40);
             this.label1.TabIndex = 1;
-            this.label1.Text = "DRAGON BLOCK C HISPANO\r\nSTAFF MANAGEMENT SYSTEM";
+            this.label1.Text = "DRAGON BLOCK C HISPANO\r\n            STAFF TOOL";
             // 
             // logo
             // 
