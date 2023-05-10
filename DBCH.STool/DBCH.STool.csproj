@@ -160,11 +160,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dbch.ico" />
+    <None Include="Resources\dbch-2.png" />
+    <None Include="Resources\no.png" />
+    <None Include="Resources\yes.png" />
     <None Include="Resources\user-2.png" />
-    <None Include="Resources\tick-no.png" />
-    <None Include="Resources\tick-yes.png" />
     <None Include="Resources\user.png" />
-    <None Include="Resources\dbch-2-transformed.png" />
     <None Include="Resources\dbch.ico" />
     <None Include="Resources\password.png" />
     <None Include="Resources\login.png" />
