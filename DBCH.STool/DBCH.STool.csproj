@@ -57,7 +57,8 @@
   <PropertyGroup />
   <PropertyGroup />
   <PropertyGroup>
-    <ApplicationIcon>dbch.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -103,35 +104,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AuthGUI.cs">
+    <Compile Include="Gui\AuthGUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AuthGUI.Designer.cs">
+    <Compile Include="Gui\AuthGUI.Designer.cs">
       <DependentUpon>AuthGUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="PromptGUI.cs">
+    <Compile Include="Gui\PromptGUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PromptGUI.Designer.cs">
+    <Compile Include="Gui\PromptGUI.Designer.cs">
       <DependentUpon>PromptGUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainGUI.cs">
+    <Compile Include="Gui\MainGUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainGUI.Designer.cs">
+    <Compile Include="Gui\MainGUI.Designer.cs">
       <DependentUpon>MainGUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="Object.cs" />
-    <Compile Include="Manager.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Source\Object.cs" />
+    <Compile Include="Source\Manager.cs" />
+    <Compile Include="Source\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AuthGUI.resx">
+    <EmbeddedResource Include="Gui\AuthGUI.resx">
       <DependentUpon>AuthGUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PromptGUI.resx">
+    <EmbeddedResource Include="Gui\PromptGUI.resx">
       <DependentUpon>PromptGUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainGUI.resx">
+    <EmbeddedResource Include="Gui\MainGUI.resx">
       <DependentUpon>MainGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -159,7 +160,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dbch.ico" />
     <None Include="Resources\dbch-2.png" />
     <None Include="Resources\no.png" />
     <None Include="Resources\yes.png" />
